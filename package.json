@@ -1,0 +1,19 @@
+{
+  "name": "blipbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "algorithmia": "^0.3.10",
+    "lime-transport-websocket": "^2.0.2",
+    "messaginghub-client": "^3.4.1",
+    "sbd": "^1.0.16",
+    "watson-developer-cloud": "^4.0.1"
+  }
+}

@@ -1,25 +1,19 @@
-# Chatbot com NodeJS
-Chatbot criado com NodeJS, integrado com a plataforma BLIP e que usa o Algorithmia para fazer buscas no Wikipedia.
+# Chatbot with NodeJs and Blip.io
+Chatbot created with NodeJS, integrated with the BLIP platform and that uses Algorithmia to search Wikipedia.
 
-# Como funciona o Chatbot?
-O chatbot filtra a mensagem recebida e envia ao Wikipedia, a resposta passa por uma higienização de conteúdo, o mesmo conteúdo é quebrado em sentenças que melhor definem a mensagem recebida, e essas sentenças são devolvidas ao usuário como uma resposta.
+# How does Chatbot work?
+The chatbot filters the received message and sends it to Wikipedia, the response undergoes content sanitization, the same content is broken into sentences that best define the received message, and these sentences are returned to the user as a response.
 
-PS: O Chatbot está em inglês.
 
-# Instalando as dependências
+# Installing the dependencies
 $ npm install
 
-# Criando o Bot
-- Acessar blip.ai
-- Fazer o cadastro e criar bot.
-- Pegar as credenciais do bot.
+# Creating the Bot
+Access blip.ai
+Register and create bot.
+Get the bot's credentials.
+Adding Bot Credentials in Code
+Add blip identifier and access key in index.js file
 
-# Adicionando as credenciais  do Bot no código
-Adicionar o identificador e a chave de acesso do blip no arquivo index.js
-
-# Rodando o Bot
+# running the bot
 $ node index.js
-
-
-
-
